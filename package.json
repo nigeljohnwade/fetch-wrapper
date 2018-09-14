@@ -1,0 +1,15 @@
+{
+  "name": "fetch-wrapper",
+  "version": "1.0.0",
+  "description": "Simple lightweight wrapper for the HTML 5 fetch API",
+  "scripts": {
+    "build": "webpack",
+    "index-src": "create-index ./src"
+  },
+  "author": "Nigelk Wade\u001b[D\u001b[D\u001b[D\u001b[D\u001b[",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}

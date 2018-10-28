@@ -1,6 +1,7 @@
 {
   "name": "fetch-wrapper",
   "version": "1.0.0",
+  "main": "./dist/main.js",
   "description": "Simple lightweight wrapper for the HTML 5 fetch API",
   "scripts": {
     "build": "webpack",

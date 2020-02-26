@@ -6,4 +6,7 @@ export const fetchGetFromAddress = (url, options) => {
                 return response.json();
             }
         })
+        .catch((error) => {
+            console.log(error);
+        })
 }

@@ -4,10 +4,9 @@
   "main": "./dist/main.js",
   "description": "Simple lightweight wrapper for the HTML 5 fetch API",
   "scripts": {
-    "build": "webpack",
-    "index-src": "create-index ./src"
+    "build": "webpack"
   },
-  "author": "Nigelk Wade\u001b[D\u001b[D\u001b[D\u001b[D\u001b[",
+  "author": "Nigel Wade",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.19.0",

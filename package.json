@@ -5,7 +5,7 @@
   "files": ["dist"],
   "description": "Simple lightweight wrapper for the HTML 5 fetch API",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --config webpack.config.js --mode production",
     "preinstall": "npm run build"
   },
   "author": "Nigel Wade",

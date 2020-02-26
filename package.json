@@ -5,7 +5,7 @@
   "description": "Simple lightweight wrapper for the HTML 5 fetch API",
   "scripts": {
     "build": "webpack",
-    "preinstall": "webpack"
+    "prepare": "./node_modules/weback/bin/webpack"
   },
   "author": "Nigel Wade",
   "license": "ISC",

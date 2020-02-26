@@ -2,15 +2,22 @@
   "name": "fetch-wrapper",
   "version": "1.0.0",
   "main": "./dist/main.js",
-  "files": ["dist", "webpack.config.js"],
+  "files": [
+    "dist",
+    "webpack.config.js"
+  ],
   "description": "Simple lightweight wrapper for the HTML 5 fetch API",
   "scripts": {
-    "build": "webpack --config webpack.config.js --mode production",
+    "build": "babel src --out-dir dist --presets=@babel/preset-env",
+    "build-webpack": "webpack --config webpack.config.js --mode production",
     "prepare": "npm run build"
   },
   "author": "Nigel Wade",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.1.0"
   }

@@ -4,7 +4,8 @@
   "main": "./dist/main.js",
   "description": "Simple lightweight wrapper for the HTML 5 fetch API",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "prepare": "webpack"
   },
   "author": "Nigel Wade",
   "license": "ISC",
